@@ -1,0 +1,3 @@
+[submodule "Face-Morphing"]
+	path = Face-Morphing
+	url = git@github.com:TheCoinTosser/Face-Morphing.git

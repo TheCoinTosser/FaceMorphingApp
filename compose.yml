@@ -1,0 +1,11 @@
+version: "1.0"
+services:
+  face_morphing:
+    image: face_morphing_image
+    volumes:
+      - type: bind
+        source: "./input_images"
+        target: /usr/Face-Morphing/images
+      - type: bind
+        source: "./output_video"
+        target: /usr/Face-Morphing/results
